@@ -365,6 +365,59 @@ body {
     border-color: #6d4c41;
 }
 
+/* ------------- Promo Section ------------ */
+
+.promo__section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 150px;
+    padding: 36px 96px;
+    margin-bottom: 40px;
+}
+
+.promo__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 44px
+}
+
+.promo__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.promo__title {
+    font-weight: 500;
+    font-size: 36px;
+    color: #4A1D1F;
+}
+
+.promo__text {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.promo__link {
+    text-decoration: none;
+    color:#4A1D1F;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.promo__link-arrow {
+    color: #000000;
+}
+
+.promo__image {
+    width: 100%;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 47px;
+
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-menu {
