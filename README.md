@@ -1,71 +1,64 @@
 # chocobrat-bakery-website
 🍫 Chocobrat Bakery Website
-Este proyecto es un sitio web desarrollado como práctica de maquetación, organización de archivos y uso de Git/GitHub.
-Incluye estructura HTML, estilos CSS, funcionalidad con JavaScript y recursos visuales organizados en carpetas.
-Actualmente el repositorio contiene trabajo combinado desde múltiples branches, lo cual generó algunos conflictos que fueron manejados manualmente durante el merge.
 
-📁 Estructura del Proyecto
+This project is a web development practice focused on layout structure, file organization, and version control using Git and GitHub.
+It includes HTML pages, CSS styling, JavaScript functionality, and visual assets organized in a clean folder structure.
 
+The repository contains work that was originally split between two branches and later merged into the main branch.
+
+📁 Project Structure
 
 Assets/
-Contiene imágenes, íconos y material visual utilizado en el sitio.
-
+Contains images, icons, and visual materials used across the website.
 
 chocobrat-bakery-website/
-Carpeta con archivos del sitio organizados y actualizados.
-
+Folder containing the organized project files.
 
 index.html
-Archivo principal del sitio.
-
+Main HTML file of the website.
 
 styles.css
-Estilos del proyecto.
-
+CSS file for layout and styling.
 
 script.js
-Archivo JavaScript para funcionalidad adicional.
-
+JavaScript for interactive functionality.
 
 README.md
-Documentación del proyecto.
+Project documentation.
 
+🔧 Branch Merging & Conflict Resolution
 
+The project was developed using two branches:
 
-🔧 Trabajo con Branches y Conflictos
-El proyecto se desarrolló utilizando distintos branches (1, 2, main), y posteriormente se fusionaron en el branch principal.
-Esto produjo conflictos en:
+David
 
+Santiago-Minota
+
+Both branches were merged into the main branch.
+This process generated merge conflicts, specifically in:
 
 index.html
 
-
 styles.css
 
+All conflicts were handled manually to ensure that both contributors’ work was included properly.
 
-Los cuales fueron resueltos manualmente para asegurar la correcta integración del contenido.
+🎨 Credits
 
-🎨 Créditos
-Agradecimientos especiales a Mr. Gopal Sapara por proveer material visual utilizado en este proyecto, lo cual permitió enriquecer la apariencia y estilo del sitio web.
+A special acknowledgment to Mr. Gopal Sapara for providing the visual material used in this project. His resources significantly enhanced the design and overall aesthetic of the website.
 
-🚀 Objetivo del Proyecto
-Aprender y practicar:
+🚀 Project Purpose
 
+This project is intended to strengthen understanding and skills in:
 
-Manejo de Git y múltiples branches
+Git branching and merging
 
+Conflict resolution
 
-Resolución de conflictos
+Frontend development (HTML, CSS, JavaScript)
 
+Web project structure and organization
 
-Organización de archivos dentro de un proyecto web
+📌 Project Status
 
-
-Desarrollo de una interfaz simple y funcional
-
-
-
-📌 Estado del Proyecto
-En desarrollo — se seguirán agregando mejoras visuales y optimizaciones en código.
-
-Si quieres que lo convierta en PDF con buen diseño y listo para imprimir, solo dime "haz el PDF" y te lo genero al instante.
+Active development — further improvements to visuals, layout, and code quality will continue.
