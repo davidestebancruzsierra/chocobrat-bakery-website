@@ -34,8 +34,9 @@ body {
 
 .nav-brand {
     font-size: 24px;
-    font-weight: 700;
-    color: #6d4c41;
+    font-weight: 500;
+    color: #4A1D1F;
+    letter-spacing: 0.9px;
 }
 
 .nav-menu {
@@ -564,6 +565,71 @@ body {
 .points__container .point:nth-child(2) {
     background-color: #4A1D1F;
 }
+
+/* ------------- Footer ------------ */
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    background-color: #FBEDCD;
+    /* padding: 82px 120px 140px 144px; */
+}
+
+.footer__top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 116px;
+    padding: 82px 120px 0px 144px;
+}
+
+.footer__top-section * {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer__links-list {
+    display: flex;
+    gap: 48px;
+}
+
+.footer__links-list a {
+    color: #272727;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer__line {
+    height: 1px;
+    width: 100%;
+    background-color: #272727;
+}
+
+.footer__bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #272727;
+    margin: 0px 120px 140px 144px;;
+}
+
+.footer__bottom-section p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 24px;
+}
+
+.footer__icons * {
+    height: 24px;
+    width: 24px;
+}
+
+
+
 
 
 /* Responsive */
